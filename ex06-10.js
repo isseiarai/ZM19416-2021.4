@@ -1,4 +1,7 @@
 function imgchange1() {
     document.getElementById('logo').src=
-     './image/bulbon.gif';
+     './image/1-61.jpg';
     }
+   
+
+    
