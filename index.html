@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Web開発の練習1</title>
-  <link rel="stylesheet" href="mystyle.css"> <!--この行を追加-->
+  <link rel="stylesheet" href="mystyle.css"> 
+  <link rel="stylesheet" href="imagechange.css"><!--この行を追加-->
 <!--
 <script src="myjs.js"></script>
 --> 
@@ -167,11 +168,11 @@ onclick="txtchange1();">
   <div id="image1" >
     <input type="button" value="画像の変更"
      onclick="imgchange1();">
-     <img src='./image/keiei_small.jpg' id="logo" alt="Josai Logo">
+     <img src='./image/keiei_small.jpg' id="logo" alt="Josai Logo" class="imagechange">
      <input type="button" value="元に戻す"
      onclick="imgchange2();">
-     <img src='./image/1-61.jpg' id="logo" alt="Josai Logo">
-    </div>
+    <!-- <img src='./image/1-61.jpg' id="logo" alt="Josai Logo">-->
+</div>
     
 <br>
 <h1>練習問題6.11</h1>
@@ -183,5 +184,7 @@ onclick="txtchange1();">
   value=""> </form>
   <form> <input type="button" value="Timer"
      onclick="setTimeout('mes()',3000)"> </form>
+     
+
 </body>
 </html>
