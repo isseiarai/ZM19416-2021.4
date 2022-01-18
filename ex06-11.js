@@ -17,5 +17,3 @@ function hyoji() {
     function mes() { 
       alert("3秒経ちました!");
    }
-   function imagechange3() {
-  }
