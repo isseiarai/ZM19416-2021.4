@@ -1,0 +1,1 @@
+function img() {document.getElementById('logo2').src ="./image/1-61.jpg";}
